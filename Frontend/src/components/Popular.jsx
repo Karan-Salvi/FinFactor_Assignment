@@ -19,8 +19,8 @@ const Popular = () => {
         <h2 class="font-cinzel text-xl sm:text-2xl font-semibold">
           Most Popular
         </h2>
-        <a
-          href="#"
+        <Link
+          to={"/movie"}
           class="text-white/70 text-sm hover:text-yellow-400 transition flex items-center space-x-1"
         >
           <span>View all</span>
@@ -38,7 +38,7 @@ const Popular = () => {
               d="M9 5l7 7-7 7"
             />
           </svg>
-        </a>
+        </Link>
       </div>
       <div class="flex space-x-5 overflow-x-auto scrollbar-hide pb-2">
         {popularMovies?.map((movie) => (

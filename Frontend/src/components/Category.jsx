@@ -52,9 +52,12 @@ const Category = () => {
           >
             Drama
           </button>
-          <button class="text-white text-opacity-50 text-2xl font-light px-4 py-2  rounded-full whitespace-nowrap pointer-events-none select-none cursor-pointer">
+          <Link
+            to={"/movie"}
+            class="text-white text-opacity-50 text-2xl font-light px-4 py-2  rounded-full whitespace-nowrap  select-none cursor-pointer"
+          >
             +
-          </button>
+          </Link>
         </div>
       </section>
 
@@ -65,7 +68,7 @@ const Category = () => {
             Most Viewed
           </h2>
           <Link
-            href="#"
+            to={"/movie"}
             class="text-white/70 text-sm hover:text-yellow-400 transition flex items-center space-x-1"
           >
             <span>View all</span>

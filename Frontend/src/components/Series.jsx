@@ -43,7 +43,7 @@ const Series = () => {
       <div class="flex space-x-5 overflow-x-auto scrollbar-hide pb-2">
         {seriesMovies.map((movie) => (
           <Link
-            to={`/movies/${movie.imdbID}`}
+            to={`/movie/${movie.imdbID}`}
             class="min-w-[150px] flex-shrink-0 cursor-pointer group"
           >
             <img
