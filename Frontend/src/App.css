@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+.font-cinzel {
+  font-family: "Cinzel Decorative", cursive;
+}
+/* To add subtle scrollbar for horizontal scroll lists */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
